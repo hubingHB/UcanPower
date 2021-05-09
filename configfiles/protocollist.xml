@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROTOCOLLIST>
+ <PROTO_NUM>3</PROTO_NUM>	
+   <PROTOCOL index="0">
+		<ICON>KD</ICON>
+        <NAME>PIR8210</NAME>
+        <VER_NUM>1</VER_NUM>
+        <PROTOCOL_INS VER="0">
+            <FILENAME>PIR8210V0.xml</FILENAME>
+　　　　</PROTOCOL_INS>
+    </PROTOCOL> 
+	<PROTOCOL index="1">
+　　　　<ICON>KD</ICON>
+        <NAME>PIR800M</NAME>
+        <VER_NUM>1</VER_NUM>
+        <PROTOCOL_INS VER="0">
+          　<FILENAME>PIR800MV0.xml</FILENAME>
+        </PROTOCOL_INS>
+　　</PROTOCOL>
+    <PROTOCOL index="2">
+　　　　<ICON>KD</ICON>
+        <NAME>PIR8330</NAME>
+        <VER_NUM>1</VER_NUM>
+        <PROTOCOL_INS VER="0">
+            <FILENAME>PIR8330V0.xml</FILENAME>
+        </PROTOCOL_INS>
+　　</PROTOCOL>    
+</PROTOCOLLIST>

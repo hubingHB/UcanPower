@@ -1,0 +1,1168 @@
+<?xml version="1.0"?>
+<PROTOCOL_INFO>
+	<ProtoName>PIR800M</ProtoName>
+	<Version>0</Version>
+	<PrivExist>0</PrivExist>
+	<MeasureNum>1</MeasureNum>
+	<PrivMeasureNum>1</PrivMeasureNum>
+	<ConstantNum>1</ConstantNum>
+	<FaulCodeGroupNum>1</FaulCodeGroupNum>
+    <PUBLIC>
+		<TeleAction>
+			<FUNCODE>1</FUNCODE>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>8</CommuTotal>
+			<DisplayTotal>2</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>设备停止状态</Name>
+					<addr>0</addr>
+					<Comment>1停止;0运行</Comment>
+				</Point>
+				<Point index="1">
+					<Name>设备运行状态</Name>
+					<addr>1</addr>
+					<Comment>0运行;1停止</Comment>
+				</Point>	
+			</DisplayPoint>		
+		</TeleAction>
+		<MeasureGroup Gid="0">
+			<FUNCODE>3</FUNCODE>
+			<STARTADDR>2</STARTADDR>
+			<CommuTotal>25</CommuTotal>
+			<DisplayTotal>16</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>Uac</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>2</Addr>
+					<Comment>0-9999V</Comment>
+				</Point>
+				<Point index="1">
+					<Name>Ia</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>3</Addr>
+					<Comment>0-9999A</Comment>
+				</Point>
+				<Point index="2">
+					<Name>Ib</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>4</Addr>
+					<Comment>0-9999A</Comment>
+				</Point>
+				<Point index="3">
+					<Name>Ic</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>5</Addr>
+					<Comment>0-9999A</Comment>
+				</Point>
+				<Point index="4">
+					<Name>RG</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>6</Addr>
+					<Comment>0-200KΩ</Comment>
+				</Point>
+				<Point index="5">
+					<Name>P</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>7</Addr>
+					<Comment>0-9999KW</Comment>
+				</Point>
+				<Point index="6">
+					<Name>断路器状态</Name>
+					<SIZE>8</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>8</BitIndex>
+					<Addr>8</Addr>
+					<Comment>85分闸，170合闸</Comment>
+				</Point>
+				<Point index="7">
+					<Name>事件代码</Name>
+					<SIZE>8</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>8</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="8">
+					<Name>COS</Name>
+					<SIZE>8</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>9</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="9">
+					<Name>Uca故障时动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>10</Addr>
+					<Comment>0-9999V</Comment>
+				</Point>
+				<Point index="10">
+					<Name>Ia故障时动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>11</Addr>
+					<Comment>0-9999V</Comment>
+				</Point>
+				<Point index="11">
+					<Name>Ib故障时动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>12</Addr>
+					<Comment>0-9999A</Comment>
+				</Point>
+				<Point index="12">
+					<Name>Ic故障时动作值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>13</Addr>
+					<Comment>0-9999A</Comment>
+				</Point>
+				<Point index="13">
+					<Name>电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>14</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="14">
+					<Name>U0</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>24</Addr>
+					<Comment>0-100V</Comment>
+				</Point>
+				<Point index="15">
+					<Name>I0</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>25</Addr>
+					<Comment>0-1000mA</Comment>
+				</Point>	
+			</DisplayPoint>
+		</MeasureGroup>
+		<MeasureGroup Gid="1">
+		     <FUNCODE>4</FUNCODE>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</MeasureGroup>
+		<ElecDegree>
+			<STARTADDR>14</STARTADDR>
+			<CommuTotal>2</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>正有功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>14</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>			
+			</DisplayPoint>
+		</ElecDegree>
+		<FaultParse>
+			<Section>T</Section>
+			<GroupId>0</GroupId>
+			<Total>0</Total>
+			<PointIndex index="0">11</PointIndex>
+			<PointIndex index="1">12</PointIndex>
+			<PointIndex index="2">13</PointIndex>
+			<PointIndex index="3">14</PointIndex>
+			<PointIndex index="4">15</PointIndex>
+			<PointIndex index="5">16</PointIndex>
+			<PointIndex index="6">17</PointIndex>
+			<PointIndex index="7">18</PointIndex>
+			<PointIndex index="8">19</PointIndex>
+			<PointIndex index="9">20</PointIndex>
+			<PointIndex index="10">21</PointIndex>
+			<PointIndex index="11">22</PointIndex>
+			<PointIndex index="12">23</PointIndex>
+			<PointIndex index="13">24</PointIndex>
+			<PointIndex index="14">25</PointIndex>
+			<PointIndex index="15">26</PointIndex>
+			<PointIndex index="16">27</PointIndex>
+			<PointIndex index="17">28</PointIndex>
+			<PointIndex index="18">29</PointIndex>
+			<PointIndex index="19">30</PointIndex>
+			<PointIndex index="20">31</PointIndex>
+			<PointIndex index="21">32</PointIndex>
+			<PointIndex index="22">33</PointIndex>
+			<PointIndex index="23">34</PointIndex>	
+		</FaultParse>
+		<SwitchStatusParse>
+			<Section>T</Section>
+			<GroupId>0</GroupId>
+			<PointIndex>0</PointIndex>
+		</SwitchStatusParse>
+		<VoltageandCurrentParse>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<Voltage>0</Voltage>
+			<Current>1</Current>
+		</VoltageandCurrentParse>		
+	</PUBLIC>
+	<PRIVATE>
+		<MeasureGroup Gid="0">
+			<STARTADDR>86</STARTADDR>
+			<CommuTotal>49</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>电流试验</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>0</RATIOorBITS>
+					<Addr>86</Addr>
+					<Comment>0成功;1失败</Comment>
+				</Point>
+				<Point index="1">
+					<Name>选漏试验</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>86</Addr>
+					<Comment>0成功;1失败</Comment>
+				</Point>
+				<Point index="2">
+					<Name>漏闭试验</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>2</RATIOorBITS>
+					<Addr>86</Addr>
+					<Comment>0成功;1失败</Comment>
+				</Point>
+				<Point index="3">
+					<Name>漏电保护试验</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>3</RATIOorBITS>
+					<Addr>86</Addr>
+					<Comment>0成功;1失败</Comment>
+				</Point>
+				<Point index="4">
+					<Name>不平衡试验</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>4</RATIOorBITS>
+					<Addr>86</Addr>
+					<Comment>0成功;1失败</Comment>
+				</Point>
+				<Point index="5">
+					<Name>过载试验</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>5</RATIOorBITS>
+					<Addr>86</Addr>
+					<Comment>0成功;1失败</Comment>
+				</Point>
+				<Point index="6">
+					<Name>短路试验</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>6</RATIOorBITS>
+					<Addr>86</Addr>
+					<Comment>0成功;1失败</Comment>
+				</Point>
+				<Point index="7">
+					<Name>监视试验</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>7</RATIOorBITS>
+					<Addr>86</Addr>
+					<Comment>0成功;1失败</Comment>
+				</Point>
+				<Point index="8">
+					<Name>合闸反馈</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>0</RATIOorBITS>
+					<Addr>87</Addr>
+					<Comment>0分闸;1合闸</Comment>
+				</Point>
+				<Point index="9">
+					<Name>风电闭锁</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>87</Addr>
+					<Comment>0分闸;1合闸</Comment>
+				</Point>
+				<Point index="10">
+					<Name>瓦斯闭锁</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>2</RATIOorBITS>
+					<Addr>87</Addr>
+					<Comment>0分闸;1合闸</Comment>
+				</Point>
+				<Point index="11">
+					<Name>远方分励</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>3</RATIOorBITS>
+					<Addr>87</Addr>
+					<Comment>0分闸;1合闸</Comment>
+				</Point>
+				<Point index="12">
+					<Name>远方合闸</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>4</RATIOorBITS>
+					<Addr>87</Addr>
+					<Comment>0分闸;1合闸</Comment>
+				</Point>
+				<Point index="13">
+					<Name>充电指示</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>5</RATIOorBITS>
+					<Addr>87</Addr>
+					<Comment>0分闸;1合闸</Comment>
+				</Point>
+				<Point index="14">
+					<Name>复位</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>6</RATIOorBITS>
+					<Addr>87</Addr>
+					<Comment>0分闸;1合闸</Comment>
+				</Point>
+				<Point index="15">
+					<Name>检修模式</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>0</RATIOorBITS>
+					<Addr>88</Addr>
+					<Comment>0正常;1检修</Comment>
+				</Point>
+				<Point index="16">
+					<Name>试验模式</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>88</Addr>
+					<Comment>0正常;1检修</Comment>
+				</Point>
+				<Point index="17">
+					<Name>CAN网扫描结果</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>88</Addr>
+					<Comment>0正常;1检修</Comment>
+				</Point>
+				<Point index="18">
+					<Name>TCP网扫描结果</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>11</RATIOorBITS>
+					<Addr>88</Addr>
+					<Comment>0正常;1检修</Comment>
+				</Point>
+				<Point index="19">
+					<Name>断路器状态</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>15</RATIOorBITS>
+					<Addr>88</Addr>
+					<Comment>1合闸;0分闸</Comment>
+				</Point>
+				<Point index="20">
+					<Name>检修状态</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>14</RATIOorBITS>
+					<Addr>89</Addr>
+					<Comment>1检修;0正常</Comment>
+				</Point>
+				<Point index="21">
+					<Name>试验状态</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>13</RATIOorBITS>
+					<Addr>89</Addr>
+					<Comment>1试验;0正常</Comment>
+				</Point>
+				<Point index="22">
+					<Name>停电票状态</Name>
+					<SIZE>2</SIZE>
+					<RATIOorBITS>11</RATIOorBITS>
+					<Addr>89</Addr>
+					<Comment>3合闸;2解锁;1闭锁;0正常</Comment>
+				</Point>
+				<Point index="23">
+					<Name>故障标志</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>7</RATIOorBITS>
+					<Addr>89</Addr>
+					<Comment>1有;0无</Comment>
+				</Point>
+				<Point index="24">
+					<Name>参数修改标志</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>6</RATIOorBITS>
+					<Addr>89</Addr>
+					<Comment>1修改成功;0未修改</Comment>
+				</Point>
+				<Point index="25">
+					<Name>故障库读取标志</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>5</RATIOorBITS>
+					<Addr>89</Addr>
+					<Comment>1读取完成;0未完成</Comment>
+				</Point>
+				<Point index="26">
+					<Name>录波库准备好标志</Name>
+					<SIZE>1</SIZE>
+					<RATIOorBITS>3</RATIOorBITS>
+					<Addr>89</Addr>
+					<Comment>1数据准备好;0未完成</Comment>
+				</Point>
+				<Point index="27">
+					<Name>最新故障ID</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>90</Addr>
+					<Comment>每次故障加1</Comment>
+				</Point>
+				<Point index="28">
+					<Name>最新录波ID</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>91</Addr>
+					<Comment>每次录波加1</Comment>
+				</Point>
+				<Point index="29">
+					<Name>最新事件ID</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>92</Addr>
+					<Comment>每次事件加1</Comment>
+				</Point>
+				<Point index="30">
+					<Name>故障库当前条目</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>93</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="31">
+					<Name>事件库当前条目</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>94</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="32">
+					<Name>录波库当前条目</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>95</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="33">
+					<Name>防越级启动次数</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>96</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="34">
+					<Name>本机地址</Name>
+					<SIZE>8</SIZE>
+					<RATIOorBITS>8</RATIOorBITS>
+					<Addr>97</Addr>
+					<Comment>1-247</Comment>
+				</Point>
+				<Point index="35">
+					<Name>来源地址</Name>
+					<SIZE>8</SIZE>
+					<RATIOorBITS>0</RATIOorBITS>
+					<Addr>97</Addr>
+					<Comment>1-247</Comment>
+				</Point>
+				<Point index="36">
+					<Name>本机等级</Name>
+					<SIZE>8</SIZE>
+					<RATIOorBITS>8</RATIOorBITS>
+					<Addr>98</Addr>
+					<Comment>1-8</Comment>
+				</Point>
+				<Point index="37">
+					<Name>来源等级</Name>
+					<SIZE>8</SIZE>
+					<RATIOorBITS>0</RATIOorBITS>
+					<Addr>98</Addr>
+					<Comment>1-8</Comment>
+				</Point>
+				<Point index="38">
+					<Name>故障代码</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>99</Addr>
+					<Comment>参见故障表</Comment>
+				</Point>
+				<Point index="39">
+					<Name>设备号</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>100</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="40">
+					<Name>Ia</Name>
+					<SIZE>32</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>101</Addr>
+					<Comment>0-99999.9A</Comment>
+				</Point>
+				<Point index="41">
+					<Name>Ic</Name>
+					<SIZE>32</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>105</Addr>
+					<Comment>0-99999.9A</Comment>
+				</Point>
+				<Point index="42">
+					<Name>Uab</Name>
+					<SIZE>32</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>113</Addr>
+					<Comment>0-999999V</Comment>
+				</Point>
+				<Point index="43">
+					<Name>Ucb</Name>
+					<SIZE>32</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>115</Addr>
+					<Comment>0-999999V</Comment>
+				</Point>
+				<Point index="44">
+					<Name>U0</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>119</Addr>
+					<Comment>0-999.9V</Comment>
+				</Point>
+				<Point index="45">
+					<Name>I0</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>120</Addr>
+					<Comment>0-999.9A</Comment>
+				</Point>
+				<Point index="46">
+					<Name>有功功率</Name>
+					<SIZE>32</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>121</Addr>
+					<Comment>0-99999999.9KW</Comment>
+				</Point>
+				<Point index="47">
+					<Name>无功功率</Name>
+					<SIZE>32</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>123</Addr>
+					<Comment>0-99999999.9KVar</Comment>
+				</Point>
+				<Point index="48">
+					<Name>Cos</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1000</RATIOorBITS>
+					<Addr>125</Addr>
+					<Comment>-1.000-1.000</Comment>
+				</Point>
+				<Point index="49">
+					<Name>Sin</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1000</RATIOorBITS>
+					<Addr>126</Addr>
+					<Comment>-1.000-1.000</Comment>
+				</Point>
+				<Point index="50">
+					<Name>系统频率</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>100</RATIOorBITS>
+					<Addr>127</Addr>
+					<Comment>0-599.99Hz></Comment>
+				</Point>
+				<Point index="51">
+					<Name>绝缘监视阻值</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>1000</RATIOorBITS>
+					<Addr>129</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="52">
+					<Name>瓦斯</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>100</RATIOorBITS>
+					<Addr>130</Addr>
+					<Comment>0-30KΩ,超过30KΩ为无穷大</Comment>
+				</Point>
+				<Point index="53">
+					<Name>CPU温度</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>131</Addr>
+					<Comment>-200.0-999.9℃</Comment>
+				</Point>
+				<Point index="54">
+					<Name>外部温度</Name>
+					<SIZE>16</SIZE>
+					<RATIOorBITS>10</RATIOorBITS>
+					<Addr>132</Addr>
+					<Comment>-200.0-999.9℃</Comment>
+				</Point>
+				<Point index="55">
+					<Name>有功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIOorBITS>1</RATIOorBITS>
+					<Addr>133</Addr>
+					<Comment>0-9999999999度</Comment>
+				</Point>	
+			</DisplayPoint>	
+		</MeasureGroup>
+		<MeasureGroup Gid="1">
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</MeasureGroup>
+		<ElecDegree>
+			<STARTADDR>512</STARTADDR>
+			<CommuTotal>16</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>总有功电路</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>512</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="1">
+					<Name>峰有功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>514</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="2">
+					<Name>平有功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>516</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="3">
+					<Name>谷有功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>518</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="4">
+					<Name>总无功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>520</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="5">
+					<Name>峰无功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>522</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="6">
+					<Name>平无功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>524</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="7">
+					<Name>谷无功电度</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>526</Addr>
+					<Comment>0-99999999度</Comment>
+				</Point>
+				<Point index="8">
+					<Name>合闸时间-时</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>528</Addr>
+					<Comment>0-65536小时</Comment>
+				</Point>	
+				<Point index="9">
+					<Name>合闸时间-秒</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>530</Addr>
+					<Comment>0-3599s</Comment>
+				</Point>
+				<Point index="9">
+					<Name>合闸时间-秒</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>530</Addr>
+					<Comment>0-3599s</Comment>
+				</Point>
+				<Point index="10">
+					<Name>合闸次数</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>531</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="11">
+					<Name>故障次数</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>532</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="12">
+					<Name>事件次数</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>533</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="13">
+					<Name>录波次数</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>534</Addr>
+					<Comment>-</Comment>
+				</Point>
+				<Point index="14">
+					<Name>累计运行时间-时</Name>
+					<SIZE>32</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>535</Addr>
+					<Comment>小时</Comment>
+				</Point>
+				<Point index="15">
+					<Name>累计运行时间-秒</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<Addr>537</Addr>
+					<Comment>秒</Comment>
+				</Point>
+			</DisplayPoint>
+		</ElecDegree>
+		<FaultParse>
+			<Section>M</Section>
+			<Total>0</Total>
+			<PointIndex index="0">38</PointIndex>
+		</FaultParse>
+		<SwitchStatusParse>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<PointIndex>19</PointIndex>
+		</SwitchStatusParse>
+		<VoltageandCurrentParse>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<Voltage>42</Voltage>
+			<Current>40</Current>
+		</VoltageandCurrentParse>
+		<PowerDownStamp>
+			<Section>M</Section>
+			<GroupId>0</GroupId>
+			<PointIndex>22</PointIndex>
+		</PowerDownStamp>
+	</PRIVATE>
+	<COMMON>
+		<ConstantGroup Gid="0">
+			<FunCodeW>6</FunCodeW>
+			<STARTADDR>256</STARTADDR>
+			<CommuTotal>13</CommuTotal>
+			<DisplayTotal>9</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>额定电流</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>256</Addr>
+					<Comment>10-1000A</Comment>
+				</Point>
+				<Point index="1">
+					<Name>速断定值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>257</Addr>
+					<Comment>2-10</Comment>
+				</Point>
+				<Point index="2">
+					<Name>欠压定值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>100</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>258</Addr>
+					<Comment>50%-85%</Comment>
+				</Point>
+				<Point index="3">
+					<Name>欠压延时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>259</Addr>
+					<Comment>1-240S</Comment>
+				</Point>
+				<Point index="4">
+					<Name>漏电检测延时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>261</Addr>
+					<Comment>0-500mS</Comment>
+				</Point>
+				<Point index="5">
+					<Name>风电瓦斯解锁延时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>264</Addr>
+					<Comment>0-20S</Comment>
+				</Point>
+				<Point index="6">
+					<Name>电压等级</Name>
+					<SIZE>16</SIZE>
+					<RATIO>0.05</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>265</Addr>
+					<Comment>19=380;33=380;57=1140</Comment>
+				</Point>
+				<Point index="7">
+					<Name>密码</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>267</Addr>
+					<Comment>1.0-10.0倍</Comment>
+				</Point>
+				<Point index="8">
+					<Name>装置地址</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>268</Addr>
+					<Comment>-</Comment>
+				</Point>
+			</DisplayPoint>
+		</ConstantGroup>
+		<ConstantGroup Gid="1">
+			<FunCodeW>6</FunCodeW>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+		</ConstantGroup>
+		<Fault>
+			<STARTADDR>0</STARTADDR>
+			<CommuTotal>0</CommuTotal>
+			<DisplayTotal>0</DisplayTotal>
+			<DisplayPoint>
+				<Point index="0">
+					<Name>U0</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>274</Addr>
+					<Comment>0-999.9V</Comment>
+				</Point>
+				<Point index="1">
+					<Name>I0</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>275</Addr>
+					<Comment>0-999.9A</Comment>
+				</Point>
+				<Point index="2">
+					<Name>Cos</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1000</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>280</Addr>
+					<Comment>-1.000-1.000</Comment>
+				</Point>
+				<Point index="3">
+					<Name>Sin</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1000</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>281</Addr>
+					<Comment>-1.000-1.000</Comment>
+				</Point>
+				<Point index="4">
+					<Name>绝缘监视阻值</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>284</Addr>
+					<Comment>0-30</Comment>
+				</Point>
+				<Point index="5">
+					<Name>瓦斯</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>285</Addr>
+					<Comment>0-30</Comment>
+				</Point>
+				<Point index="6">
+					<Name>CPU温度</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>286</Addr>
+					<Comment>-200.0-999.9℃</Comment>
+				</Point>
+				<Point index="7">
+					<Name>外部温度</Name>
+					<SIZE>16</SIZE>
+					<RATIO>10</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>287</Addr>
+					<Comment>-200.0-999.9℃</Comment>
+				</Point>
+				<Point index="8">
+					<Name>故障时间-年</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>288</Addr>
+					<Comment>1970-2099</Comment>
+				</Point>
+				<Point index="9">
+					<Name>故障时间-月</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>289</Addr>
+					<Comment>1-12</Comment>
+				</Point>
+				<Point index="10">
+					<Name>故障时间-日</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>290</Addr>
+					<Comment>1-31</Comment>
+				</Point>
+				<Point index="11">
+					<Name>故障时间-时</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>291</Addr>
+					<Comment>0-23</Comment>
+				</Point>
+				<Point index="12">
+					<Name>故障时间-分</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>292</Addr>
+					<Comment>0-59</Comment>
+				</Point>
+				<Point index="13">
+					<Name>故障时间-秒</Name>
+					<SIZE>16</SIZE>
+					<RATIO>1</RATIO>
+					<BitIndex>0</BitIndex>
+					<Addr>293</Addr>
+					<Comment>0-59</Comment>
+				</Point>
+			</DisplayPoint>
+		</Fault>
+		<TimeSync>
+			<ENABLE>0</ENABLE>
+			<YEAR>256</YEAR>
+			<MON>257</MON>
+			<DAY>258</DAY>
+			<HOUR>259</HOUR>
+			<MIN>260</MIN>
+			<SEC>261</SEC>
+		</TimeSync>
+		<SwitchControl>
+			<TOTAL>4</TOTAL>
+			<CHANNEL id="0">
+				<ADDR>1</ADDR>
+				<CMD>65280</CMD>
+				<DESC>合闸</DESC>
+			</CHANNEL>
+			<CHANNEL id="1">
+				<ADDR>0</ADDR>
+				<CMD>65280</CMD>
+				<DESC>分闸</DESC>
+			</CHANNEL>
+			<CHANNEL id="2">
+				<ADDR>2</ADDR>
+				<CMD>65280</CMD>
+				<DESC>重置</DESC>
+			</CHANNEL>
+			<CHANNEL id="3">
+				<ADDR>3</ADDR>
+				<CMD>65280</CMD>
+				<DESC>测试</DESC>
+			</CHANNEL>
+		</SwitchControl>
+		<FaultCode id="0">
+		    <NAME>800M</NAME>
+			<TOTAL>39</TOTAL>
+			<CodeDesc index="0">
+				<CODE>0</CODE>
+				<DESC>无故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="1">
+				<CODE>11</CODE>
+				<DESC>欠压故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="2">
+				<CODE>12</CODE>
+				<DESC>过压故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="3">
+				<CODE>14</CODE>
+				<DESC>漏电闭锁故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="4">
+				<CODE>15</CODE>
+				<DESC>漏电保护故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="5">
+				<CODE>16</CODE>
+				<DESC>选择性漏电保护</DESC>
+			</CodeDesc>
+			<CodeDesc index="6">
+				<CODE>19</CODE>
+				<DESC>分闸失败</DESC>
+			</CodeDesc>
+			<CodeDesc index="7">
+				<CODE>20</CODE>
+				<DESC>A相短路</DESC>
+			</CodeDesc>
+			<CodeDesc index="8">
+				<CODE>21</CODE>
+				<DESC>B相短路</DESC>
+			</CodeDesc>
+			<CodeDesc index="9">
+				<CODE>22</CODE>
+				<DESC>C相短路</DESC>
+			</CodeDesc>
+			<CodeDesc index="10">
+				<CODE>23</CODE>
+				<DESC>三相不平衡</DESC>
+			</CodeDesc>
+			<CodeDesc index="11">
+				<CODE>55</CODE>
+				<DESC>分闸电压不足</DESC>
+			</CodeDesc>
+			<CodeDesc index="12">
+				<CODE>56</CODE>
+				<DESC>合闸电压不足</DESC>
+			</CodeDesc>	
+			<CodeDesc index="13">
+				<CODE>65</CODE>
+				<DESC>瓦斯超标</DESC>
+			</CodeDesc>
+			<CodeDesc index="14">
+				<CODE>66</CODE>
+				<DESC>高温保护</DESC>
+			</CodeDesc>
+			<CodeDesc index="15">
+				<CODE>67</CODE>
+				<DESC>高低压联锁</DESC>
+			</CodeDesc>
+			<CodeDesc index="16">
+				<CODE>70</CODE>
+				<DESC>相敏故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="17">
+				<CODE>71</CODE>
+				<DESC>A相敏故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="18">
+				<CODE>72</CODE>
+				<DESC>B相敏故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="19">
+				<CODE>73</CODE>
+				<DESC>C相敏故障</DESC>
+			</CodeDesc>
+			<CodeDesc index="20">
+				<CODE>74</CODE>
+				<DESC>A相欠压</DESC>
+			</CodeDesc>
+			<CodeDesc index="21">
+				<CODE>75</CODE>
+				<DESC>B相欠压</DESC>
+			</CodeDesc>
+			<CodeDesc index="22">
+				<CODE>76</CODE>
+				<DESC>C相欠压</DESC>
+			</CodeDesc>
+			<CodeDesc index="23">
+				<CODE>77</CODE>
+				<DESC>A相过压</DESC>
+			</CodeDesc>
+			<CodeDesc index="24">
+				<CODE>78</CODE>
+				<DESC>B相过压</DESC>
+			</CodeDesc>
+			<CodeDesc index="25">
+				<CODE>79</CODE>
+				<DESC>C相过压</DESC>
+			</CodeDesc>
+			<CodeDesc index="26">
+				<CODE>83</CODE>
+				<DESC>瓦斯闭锁</DESC>
+			</CodeDesc>
+			<CodeDesc index="27">
+				<CODE>84</CODE>
+				<DESC>高温闭锁</DESC>
+			</CodeDesc>
+			<CodeDesc index="28">
+				<CODE>85</CODE>
+				<DESC>断相</DESC>
+			</CodeDesc>
+			<CodeDesc index="29">
+				<CODE>88</CODE>
+				<MEANING>短路闭锁</MEANING>
+			</CodeDesc>
+			<CodeDesc index="30">
+				<CODE>89</CODE>
+				<DESC>风电闭锁</DESC>
+			</CodeDesc>
+			<CodeDesc index="31">
+				<CODE>90</CODE>
+				<DESC>AB相短路</DESC>
+			</CodeDesc>
+			<CodeDesc index="32">
+				<CODE>91</CODE>
+				<DESC>BC相短路</DESC>
+			</CodeDesc>
+			<CodeDesc index="33">
+				<CODE>92</CODE>
+				<DESC>CA相短路</DESC>
+			</CodeDesc>
+			<CodeDesc index="34">
+				<CODE>93</CODE>
+				<DESC>ABC相短路</DESC>
+			</CodeDesc>
+			<CodeDesc index="35">
+				<CODE>99</CODE>
+				<DESC>分闸闭锁</DESC>
+			</CodeDesc>
+		</FaultCode>
+	</COMMON>
+</PROTOCOL_INFO>
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SYSCONFIG>
+    <SYSSTRUCT_I>
+        <STAGE1 index="0">
+            <ADDR>0</ADDR>
+            <STAGE2 index="0">
+                <ADDR>1</ADDR>
+            </STAGE2>
+            <STAGE2 index="1">
+                <ADDR>2</ADDR>
+            </STAGE2>
+            <STAGE2 index="2">
+                <ADDR>3</ADDR>
+            </STAGE2>
+            <STAGE2 index="3">
+                <ADDR>4</ADDR>
+            </STAGE2>
+            <STAGE2 index="4">
+                <ADDR>5</ADDR>
+            </STAGE2>
+            <STAGE2 index="5">
+                <ADDR>6</ADDR>
+                <STAGE3 index="0">
+                    <ADDR>24</ADDR>
+                    <STAGE4 index="0">
+                        <ADDR>25</ADDR>
+                    </STAGE4>
+                    <STAGE4 index="1">
+                        <ADDR>26</ADDR>
+                    </STAGE4>
+                </STAGE3>
+            </STAGE2>
+        </STAGE1>
+    </SYSSTRUCT_I>
+    <SYSSTRUCT_II>
+        <STAGE1 index="1">
+            <ADDR>15</ADDR>
+            <STAGE2 index="0">
+                <ADDR>1</ADDR>
+            </STAGE2>
+            <STAGE2 index="1">
+                <ADDR>2</ADDR>
+                <STAGE3 index="0">
+                    <ADDR>3</ADDR>
+                </STAGE3>
+                <STAGE3 index="0">
+                    <ADDR>4</ADDR>
+                </STAGE3>
+                <STAGE3 index="0">
+                    <ADDR>5</ADDR>
+                </STAGE3>
+            </STAGE2>
+            <STAGE2 index="5">
+                <ADDR>6</ADDR>
+            </STAGE2>
+            <STAGE2 index="5">
+                <ADDR>24</ADDR>
+            </STAGE2>
+            <STAGE2 index="5">
+                <ADDR>25</ADDR>
+            </STAGE2>
+            <STAGE2 index="5">
+                <ADDR>26</ADDR>
+            </STAGE2>
+            <STAGE2 index="0">
+                <ADDR>0</ADDR>
+            </STAGE2>
+            <STAGE2 index="0">
+                <ADDR>0</ADDR>
+            </STAGE2>
+            <STAGE2 index="0">
+                <ADDR>0</ADDR>
+            </STAGE2>
+            <STAGE2 index="0">
+                <ADDR>0</ADDR>
+                <STAGE3 index="0">
+                    <ADDR>0</ADDR>
+                    <STAGE4 index="0">
+                        <ADDR>0</ADDR>
+                    </STAGE4>
+                    <STAGE4 index="0">
+                        <ADDR>0</ADDR>
+                    </STAGE4>
+                </STAGE3>
+            </STAGE2>
+        </STAGE1>
+    </SYSSTRUCT_II>
+    <CONDEV>
+        <TOTAL>2</TOTAL>
+        <DEV>
+            <ADDR>8</ADDR>
+            <LVL>2</LVL>
+        </DEV>
+        <DEV>
+            <ADDR>50</ADDR>
+            <LVL>4</LVL>
+        </DEV>
+    </CONDEV>
+</SYSCONFIG>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--logicaddr COM0:0-15; COM1:16-31; COM2:32-47; COM3:48-63 ; COM4: 64-79;COM5: 80-95-->
+<SYSCONFIG>
+    <SYSCOMMU>
+        <StationName>局扇点1</StationName>
+        <COM port="0">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>2</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>1</DEVICE_NUM>
+            <DEV logicaddr="0">
+                <PHY_ADDR>10</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>A001</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+        </COM>
+        <COM port="1">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>1</DEVICE_NUM>
+            <DEV logicaddr="16">
+                <PHY_ADDR>4</PHY_ADDR>
+                <PROTO_INDEX>2</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>3</DEVICE_NAME>
+                <FACTORY_AD>183</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="17">
+                <PHY_ADDR>4</PHY_ADDR>
+                <PROTO_INDEX>11</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>5</DEVICE_NAME>
+                <FACTORY_AD>183</FACTORY_AD>
+            </DEV>
+        </COM>
+        <COM port="2">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>1</DEVICE_NUM>
+            <DEV logicaddr="32">
+                <PHY_ADDR>13</PHY_ADDR>
+                <PROTO_INDEX>0</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C001</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="33">
+                <PHY_ADDR>34</PHY_ADDR>
+                <PROTO_INDEX>3</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C002</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="34">
+                <PHY_ADDR>35</PHY_ADDR>
+                <PROTO_INDEX>3</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C003</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="35">
+                <PHY_ADDR>36</PHY_ADDR>
+                <PROTO_INDEX>3</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C004</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="36">
+                <PHY_ADDR>37</PHY_ADDR>
+                <PROTO_INDEX>3</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C005</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="37">
+                <PHY_ADDR>38</PHY_ADDR>
+                <PROTO_INDEX>3</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C006</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="38">
+                <PHY_ADDR>39</PHY_ADDR>
+                <PROTO_INDEX>3</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C007</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="39">
+                <PHY_ADDR>40</PHY_ADDR>
+                <PROTO_INDEX>3</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C008</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="40">
+                <PHY_ADDR>41</PHY_ADDR>
+                <PROTO_INDEX>3</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C009</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+			<DEV logicaddr="41">
+                <PHY_ADDR>42</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C011</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="42">
+                <PHY_ADDR>43</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C012</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="43">
+                <PHY_ADDR>44</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C013</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+			<DEV logicaddr="44">
+                <PHY_ADDR>45</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C014</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="45">
+                <PHY_ADDR>46</PHY_ADDR>
+                <PROTO_INDEX>5</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C015</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="46">
+                <PHY_ADDR>47</PHY_ADDR>
+                <PROTO_INDEX>5</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C016</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+			 <DEV logicaddr="47">
+                <PHY_ADDR>48</PHY_ADDR>
+                <PROTO_INDEX>5</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>C016</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+        </COM>
+        <COM port="3">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>0</DEVICE_NUM>
+            <DEV logicaddr="48">
+                <PHY_ADDR>49</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D001</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="49">
+                <PHY_ADDR>50</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D002</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="50">
+                <PHY_ADDR>51</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D003</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="51">
+                <PHY_ADDR>52</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D004</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="52">
+                <PHY_ADDR>53</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D005</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="53">
+                <PHY_ADDR>54</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D006</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="54">
+                <PHY_ADDR>55</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D007</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="55">
+                <PHY_ADDR>56</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D008</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="56">
+                <PHY_ADDR>57</PHY_ADDR>
+                <PROTO_INDEX>4</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D009</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="57">
+                <PHY_ADDR>58</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D010</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="58">
+                <PHY_ADDR>59</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D011</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="59">
+                <PHY_ADDR>60</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D012</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="60">
+                <PHY_ADDR>61</PHY_ADDR>
+                <PROTO_INDEX>5</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D013</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="61">
+                <PHY_ADDR>62</PHY_ADDR>
+                <PROTO_INDEX>5</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D014</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="62">
+                <PHY_ADDR>63</PHY_ADDR>
+                <PROTO_INDEX>5</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D015</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="63">
+                <PHY_ADDR>64</PHY_ADDR>
+                <PROTO_INDEX>5</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>D016</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+        </COM>
+        <COM port="4">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>0</DEVICE_NUM>
+            <DEV logicaddr="64">
+                <PHY_ADDR>65</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E001</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="65">
+                <PHY_ADDR>66</PHY_ADDR>
+                <PROTO_INDEX>0</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E002</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="66">
+                <PHY_ADDR>67</PHY_ADDR>
+                <PROTO_INDEX>0</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E003</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="67">
+                <PHY_ADDR>68</PHY_ADDR>
+                <PROTO_INDEX>0</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E004</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="68">
+                <PHY_ADDR>69</PHY_ADDR>
+                <PROTO_INDEX>2</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E005</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="69">
+                <PHY_ADDR>70</PHY_ADDR>
+                <PROTO_INDEX>2</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E006</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="70">
+                <PHY_ADDR>71</PHY_ADDR>
+                <PROTO_INDEX>2</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E007</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="71">
+                <PHY_ADDR>72</PHY_ADDR>
+                <PROTO_INDEX>2</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E008</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+			 <DEV logicaddr="72">
+                <PHY_ADDR>73</PHY_ADDR>
+                <PROTO_INDEX>2</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E009</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="73">
+                <PHY_ADDR>74</PHY_ADDR>
+                <PROTO_INDEX>2</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E010</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="74">
+                <PHY_ADDR>75</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E011</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="75">
+                <PHY_ADDR>76</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E012</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="76">
+                <PHY_ADDR>77</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E013</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="77">
+                <PHY_ADDR>78</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E014</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="78">
+                <PHY_ADDR>79</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E015</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="79">
+                <PHY_ADDR>80</PHY_ADDR>
+                <PROTO_INDEX>1</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>E016</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+        </COM>
+        <COM port="5">
+            <PARAM>
+                <SPEED>9600</SPEED>
+                <DATABITS>8</DATABITS>
+                <PARITY>0</PARITY>
+                <STOPBITS>1</STOPBITS>
+            </PARAM>
+            <DEVICE_NUM>0</DEVICE_NUM>
+            <DEV logicaddr="80">
+                <PHY_ADDR>81</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F001</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="81">
+                <PHY_ADDR>82</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F002</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="82">
+                <PHY_ADDR>83</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F003</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="83">
+                <PHY_ADDR>84</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F004</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="84">
+                <PHY_ADDR>85</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F005</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="85">
+                <PHY_ADDR>86</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F006</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="86">
+                <PHY_ADDR>87</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F007</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="87">
+                <PHY_ADDR>88</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F008</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+			<DEV logicaddr="88">
+                <PHY_ADDR>89</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F009</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="89">
+                <PHY_ADDR>90</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F010</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="90">
+                <PHY_ADDR>91</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F011</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="91">
+                <PHY_ADDR>92</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F012</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="92">
+                <PHY_ADDR>93</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F013</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="93">
+                <PHY_ADDR>94</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F014</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="94">
+                <PHY_ADDR>95</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F015</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+            <DEV logicaddr="95">
+                <PHY_ADDR>96</PHY_ADDR>
+                <PROTO_INDEX>10</PROTO_INDEX>
+                <PROTO_VER>0</PROTO_VER>
+                <DEVICE_NAME>F016</DEVICE_NAME>
+                <FACTORY_AD>0</FACTORY_AD>
+            </DEV>
+        </COM>
+    </SYSCOMMU>
+</SYSCONFIG>
